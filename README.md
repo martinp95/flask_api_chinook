@@ -1,7 +1,7 @@
 # 🎵 Chinook REST API
 
 ![Tests](https://github.com/martinp95/FLASK_API_CHINOOK/actions/workflows/ci.yml/badge.svg)
-[![codecov](https://codecov.io/gh/martinp95/FLASK_API_CHINOOK/branch/main/graph/badge.svg)](https://codecov.io/gh/martinp95/FLASK_API_CHINOOK)
+[![codecov](https://codecov.io/gh/martinp95/flask_api_chinook/graph/badge.svg)](https://codecov.io/gh/martinp95/flask_api_chinook)
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
 ![License](https://img.shields.io/github/license/martinp95/FLASK_API_CHINOOK)
 
