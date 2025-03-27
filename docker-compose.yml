@@ -1,0 +1,17 @@
+services:
+  api:
+    container_name: chinook-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/code
+      - ./instance:/code/instance  # ensure SQLite remains persistent
+    environment:
+      - FLASK_APP=app.run
+      - FLASK_ENV=development
+      - FLASK_CONFIG=app.common.config.DevelopmentConfig
+    working_dir: /code
+    command: flask run --host=0.0.0.0 --port=5000
