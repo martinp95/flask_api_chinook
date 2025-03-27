@@ -1,9 +1,9 @@
 # 🎵 Chinook REST API
 
-![Tests](https://github.com/martinp95/FLASK_API_CHINOOK/actions/workflows/ci.yml/badge.svg)
+![Tests](https://github.com/martinp95/flask_api_chinook/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/martinp95/flask_api_chinook/graph/badge.svg)](https://codecov.io/gh/martinp95/flask_api_chinook)
 ![Python](https://img.shields.io/badge/python-3.12-blue.svg)
-![License](https://img.shields.io/github/license/martinp95/FLASK_API_CHINOOK)
+[![License](https://img.shields.io/github/license/martinp95/flask_api_chinook.svg)](https://github.com/martinp95/flask_api_chinook/blob/main/LICENSE)
 
 A production-ready RESTful API built with **Flask**, **SQLAlchemy**, and **Marshmallow**, based on the classic Chinook database. It exposes endpoints to browse artists, albums, and tracks with support for pagination, nested resources, summaries, and OpenAPI documentation.
 
