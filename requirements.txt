@@ -4,4 +4,4 @@ SQLAlchemy==2.0.39
 flasgger==0.9.7.1
 marshmallow-sqlalchemy==1.4.1
 flask-marshmallow==1.3.0
-black==25.1.0
+black==26.3.1
